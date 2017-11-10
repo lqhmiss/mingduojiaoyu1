@@ -1,0 +1,220 @@
+@charset "utf-8";
+                         /*全局样式*/
+/*-----------------------logo部分nav*/
+.logo{
+	background: linear-gradient(#323236, #0f1012);
+}
+.logo h1{
+   height: 108px;
+   text-indent: -9999px;
+   background: url(../images/1_05.png), url(../images/1_02.gif);
+   background-repeat: no-repeat;
+   background-position: 0 25px, 0 0;
+}
+/*-----------------------导航部分nav*/
+.nav{
+	position: relative;
+	height: 36px;
+	border-top: 1px solid #464749;
+	background: linear-gradient(#323236, #0f1012);
+}
+.nav ul{
+	position: absolute;
+	width: 960px;
+	height: 48px;
+	line-height: 48px;
+	left: 50%;
+	margin-left: -480px;
+	margin-top: -6px;
+	border-radius: 8px;
+	border-top: 1px solid #464749;
+	-webkit-box-shadow:  0 5px 5px rgba(0,0,0,.5);
+	box-shadow:  0 5px 5px rgba(0,0,0,.5);   /*简写bxs*/
+	background: linear-gradient(#323236, #0f1012);
+}
+.nav li{
+	float: left;
+	padding-left: 55px;
+}
+.nav li a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*-----------------------banner部分nav*/
+.banner{
+	background: #000;
+	
+}
+.banner img{
+	vertical-align: middle;/*垂直居中*/
+}
+/*-----------------------subnav部分nav*/
+
+.subnav{
+	position: relative;
+	border-bottom: 1px solid #eee;
+	background: linear-gradient(#d4d5d9, #c8c9cb);
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.subnav ul{
+	width: 860px;
+	height: 40px;
+	margin: 0 auto;
+}
+.subnav li{
+	font-weight: bold;
+	float: left;
+	/*display: inline-block;*/
+	height: 32px;
+	line-height: 32px;
+	margin-top: 4px;
+	padding: 0 30px;
+	border-left: 1px solid #b8b8b8;
+	border-right: 1px solid #d9d9d9;
+}
+.li-01 a{
+	font-weight: bold;
+	color: #fff;
+	padding: 12px;
+	/*border: 4px solid #000;*/
+	background: #214ca9;
+}
+
+.main{
+	/*height: 200px;*/
+	background: linear-gradient(#c3c8cc 0, #fff 20%);
+}
+/*.js{
+	height: 200px;
+	background: #f00;
+}*/
+/*.subnav h1{
+	height: 500px;
+	background: #c3c8cc,
+}
+*/
+.box-01{
+	width: 770px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	/*margin-top: 30px;*/
+
+}
+.box-01 p{
+	color: #624a7c;
+	font-weight: bold;
+	/*padding-top: 30px;*/
+}
+.box-02{
+	margin-bottom: 20px;
+	margin-top: 30px;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	padding: 20px 40px;
+	-webkit-box-shadow:  0 0 5px rgba(0,0,0,0.2);
+	box-shadow:  0 0 5px rgba(0,0,0,0.2);
+	background: #efefef;
+}
+.box-02 hr{
+	border-top: 1px dotted #bbb;
+}
+.box-02 h2{
+	width: 184px;
+	height: 45px;
+	margin-top: -31px;
+	margin-bottom: 40px;
+	text-indent: -9999px;
+	background: url(../images/4_03.png) no-repeat;
+}
+
+.form-list{
+	margin-top: 40px;
+	font-weight: bold;
+}
+.form-list label{
+	width: 45px;
+	margin-right: 10px;
+	display: inline-block;
+	text-align: right;
+}
+.form-list span{
+	padding-left: 25px;
+	background: url(../images/4_07.gif) 10px 5px no-repeat;
+}
+.form-list input{
+	width: 200px;
+	height: 24px;
+    line-height: 24px;
+    border: 1px solid #666;
+    background: #ccc;
+    -webkit-box-shadow: inset 2px 2px 2px rgba(0,0,0,.5);
+	box-shadow: inset 2px 2px 2px rgba(0,0,0,.5);
+}
+.form-list li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.form-list textarea{
+	width: 650px;
+	background: #ccc;
+	margin-top: 20px;
+	max-width: 650px;
+	-webkit-box-shadow: inset 2px 2px 5px rgba(0,0,0,.5);
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,.5);
+}
+.max{
+	/*width: 500px;
+	margin: 0 auto;*/
+	margin-left: 250px;
+    /*background: #f00; */
+}
+
+
+
+
+
+
+
+
+
+/*------------------footer-02------------------*/
+.footer{
+	/*margin-top: 20px;*/
+	background: #464741;
+}
+.footer .tupi img{
+	padding: 30px 40px;
+}
+.footer .skt{
+	border-top: 2px solid #999;
+}
+.skt ul{
+	padding-top: 10px;
+	display: inline-block;
+	width: 125px;
+	padding-left: 10px;
+
+}
+.skt p{
+	color: #fff;
+	font-size: 16px;
+}
+.skt li{
+	text-indent: 8px;
+	background-image: url(../images/1-125.png);
+	background-repeat: no-repeat;
+	background-position: 0px 8px;
+}
+.skt li a{
+	color: #999;
+}
+.skt-02{
+	margin-top: 70px;
+}
+.skt-02 p{
+	text-align: center;
+	color: #999;
+	margin-top: 10px;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+           /*全局样式*/
+
+body,
+h1,
+h4,
+dl,
+dd,
+ul,
+p,
+h3,
+span{
+	margin: 0;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+body{
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","PingFang SC","Arial","Microsoft YaHei",sans-serif;
+    font-size: 14px;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
